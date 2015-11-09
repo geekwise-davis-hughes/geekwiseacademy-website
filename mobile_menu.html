@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <head>
+            <meta charset="utf-8">
+                <title>
+                mobile menu
+                </title>
+    
+            <style>
+                html,body{
+                    margin: 0;
+                    padding: 0;
+                    background-color: maroon;
+                    
+                }
+                @media screen and (min-width: 800px){
+                    button{
+                        display:non;
+                    }
+                }
+                
+                header{
+                    background-color: white;
+                }
+                
+               
+                nav{
+                    display: none;
+                }
+                
+                button:{
+                    font-size: 1em;
+                    border:.05em solid;
+                    border-radius: .2em;
+                    background-color: white;
+                    float: right;
+                    
+                    margin-left: .5em;
+                    margin-right: .5em;
+                    margin-top: .5em;
+                    
+                    padding: .5em;
+                    
+                    transform:scale(1.3,.9);
+                    
+                    
+                }
+                
+                 button::before{
+                    content: "III";
+                    transform:rotate(90deg);
+                    float: left;
+                    
+                }
+                div{
+                    width:250px;
+                    height:250px;
+                    background-color: aqua;
+                    border-radius:250px;
+                    border:1px solid;
+                    content: yo;
+                }
+                
+                button:focus{
+                    outline: 10;
+                    background-color: #dddddd;
+                }
+                
+                button:hover{
+                    background:#dddddd;
+                    cursor: pointer;
+                }
+                
+                button:focus + nav{
+                    display: block;
+                    clear: both;
+                    margin-left: 30%;
+                    margin-right: 30%;
+                        
+                    
+                }
+            </style>
+        </head>
+        
+        
+        <header>
+            <button>
+                
+            </button>
+                 <nav>
+                     <ul>
+                       <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                        <li>6</li>
+                     </ul>   
+                </nav>
+        </header>
+        
+        
+        <div>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

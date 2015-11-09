@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid gold;*/
+}
+html,body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+header{
+    width:100%;
+    background-color: #7a1501;
+    
+    
+    
+}
+
+nav{
+    width: inherit;
+}
+#home{
+    padding-top:10%;
+    width: 7vw;
+}
+ul{
+    
+    
+    font-size: 1vw;
+    /*float: left;*/
+    text-align: center;
+}
+ul>li{
+    display: inline;
+    text-align: center;
+    line-height: 60px;
+    /*float: left;*/
+    padding: 15px;
+    
+    
+}
+ul>li>a{
+    text-decoration: none;
+    color :white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+     
+    
+}
+a:hover, a:active {
+    color:#f9da0c;
+}
+
+a.yellow{
+    color:#f9da0c;
+    
+}
+a.sign{
+    background-color: #f9da0c;
+    color:#7a1501 ;
+    /*margin-bottom:10%;*/
+    /*margin-top:10%;*/
+}
+body{
+    background-image:url(http://geekwiseacademy.com/img/BitwiseMuralDist_photo-bw.jpg) ;
+    
+}
+#snip{
+    width: 100%;
+    height:15%;
+    text-align: center;
+    display: inline-block;
+    padding-top:7%;
+}

@@ -1,0 +1,171 @@
+/*@media only screen*/
+/*    and (mid-device-width: 361px)*/
+/*    and (max-device-width: 640px)*/
+/*    and (-webkit-min-device-pixel-ratio: 2)*/
+/*    and (orientation: landscape){*/
+        
+/*        body{*/
+/*            background-color: magenta;*/
+/*        }*/
+/*}*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+
+@font-face{
+    font-family: "oswald";
+    
+}
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    /*border:1px yellow solid;*/
+    /*width: 100%;*/
+    font-family: "oswald";
+    
+    
+}
+body,html {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    text-align: center;
+    
+    
+    
+}
+
+
+ul{
+    width: 100%;
+    color: #000000;
+    
+    
+    
+    
+}
+
+li{
+    display: inline;
+    /*line-height: 60px;*/
+    list-style-type: none;
+    /*font-size: vw;*/
+    font-size: 1.2vw;
+    padding:
+    .7%;
+}
+a{
+    display: inline-block;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 4px;
+    color: black;
+    text-decoration: none;
+    /*float: right;*/
+
+    
+
+}
+a.sign{
+    color:#7a1501;
+    background-color:#f9da0c;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a:hover, a:active {
+    background-color: #f9da0c;
+    color:#7a1501 ;
+}
+
+#roger {
+    width: 50vw;
+    /*height: 50vh;*/
+}
+
+#q{
+    width:100%;
+    height:500px;
+    background-color: #7a1501;
+}
+    
+#m{
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#learn{
+    float: left;
+    width:calc(95%/3);
+    padding: 0;
+    border-right:2px solid #ffffff;
+    margin-right:2.5%;
+    text-align: center;
+    clear: both;
+    
+} 
+
+#sign{float: left;
+    width:calc(95%/3);
+    border-top:2px solid #ffffff;
+    text-align: center;
+}
+
+#why{
+    float:right;
+    width:calc(95%/3);
+    padding: 0;
+    border-left: 2px solid white;
+    text-align: center;
+}
+
+#a {
+    text-align: center;
+    color: white;
+    font-family: "franchise";
+    font-size: 2.0em;
+    /*margin-top:%;*/
+    text-transform: uppercase;
+}
+
+#b {
+    text-align: center;
+    color: white;
+    font-family: "ciria";
+    font-size: 2.8em;
+    margin-bottom: 3%;
+    text-transform: lowercase;
+    
+    
+}
+#white{
+    color:white;
+    font-size: 2vw;
+    
+}
+#ab{
+    margin-top: 3%;
+    
+}
+body{
+    background-color:#7a1501 ;
+}
+header{
+    background-color:white;
+}
